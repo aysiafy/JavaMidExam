@@ -42,6 +42,8 @@ public class Axioo extends Laptop {
             System.out.println("Ukuran RAM diatur ke default (4 GB)");
             System.out.println("");
             super.setRamLaptop(4);
+        } else {
+            super.setRamLaptop(angka);
         }
     }
     
@@ -53,6 +55,8 @@ public class Axioo extends Laptop {
             System.out.println("Jumlah Core diatur ke default (Dual-Core)");
             System.out.println("");
             super.setCoreLaptop(2);
+        } else {
+            super.setCoreLaptop(angka);
         }
     }
     
@@ -64,6 +68,8 @@ public class Axioo extends Laptop {
             System.out.println("Jumlah Stok diatur ke default (0 pcs)");
             System.out.println("");
             super.setStokLaptop(0);
+        } else {
+            super.setStokLaptop(angka);
         }
     }
     
